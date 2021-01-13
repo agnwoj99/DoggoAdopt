@@ -1,0 +1,139 @@
+*, *::after, *::before
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+html
+    overflow-x: hidden
+    scroll-behavior: smooth
+body
+    font-family: 'Raleway', sans-serif
+.header-shadow
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.3)
+    z-index: -1
+
+// nawigacja //
+nav
+    .navbar-brand
+        font-family: 'Courgette', cursive
+        font-size: 25px
+    .navbar-collapse
+        letter-spacing: 3px
+
+// header //
+header
+    .header-img
+        position: relative
+        height: 100vh
+        object-fit: cover
+        background-image: url('../img/Doggo2.jpg')
+        background-position: center
+        background-size: cover
+        z-index: 0
+    .header-text
+        position: absolute
+        top: 23%
+        left: 50%
+        transform: translate(-50%,-50%)
+        h1
+            font-family: 'Courgette', cursive
+            font-size: 65px
+
+// adopcja //
+#adoption
+    h1
+        font-size: 45px
+    .adopt-hero-box
+        position: relative
+        height: 300px
+        background-size: cover
+        z-index: 0
+        p
+            color: white
+            text-transform: uppercase
+            font-weight: bold
+    .box-one
+        background-image: url('../img/dog-5288071_640.jpg')
+    .box-two
+        background-image: url('../img/great-dane-3387239_1280.jpg')
+    .box-three
+        background-image: url('../img/dog-4689169_640.jpg')
+    .box-four
+        background-image: url('../img/dog-4608266_640.jpg')
+    .box-five
+        background-image: url('../img/dog-4441585_640.jpg')
+    .box-six
+        background-image: url('../img/animal-1869442_640.jpg')
+    .box-seven
+        background-image: url('../img/dog-3759590_640.jpg')
+    .box-eight
+        background-image: url('../img/boston-terrier-pup-1752894_640.jpg')
+    .box-nine
+        background-image: url('../img/animal-1850002_640.jpg')
+
+// kontakt //
+#contact
+    .container
+        position: relative
+        background-image: url('../img/dog-4259565_1280.jpg')
+        background-position: cover
+        background-size: center
+        z-index: 0
+
+// strona z formularzami //
+#form
+    .form-header
+        position: relative
+        height: 60vh
+        background-image: url('../img/dog-4370694_1280.jpg')
+        background-position: center
+        background-size: cover
+        z-index: 0
+    .form-text
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        font-size: 40px
+#download
+    .container
+        a
+            color: #5D6D1C
+            text-decoration: none
+            transition: color .3s
+        a:hover
+            color: grey
+        p
+            font-size: 13px
+
+// stopka //
+footer
+    font-size: 11px
+    p
+        position: absolute
+        left: 25px
+        right: 0
+    span
+        position: absolute
+        right: 25px
+
+
+@media (min-width: 375px)
+    header
+        .header-text
+            h1
+                font-size: 72px
+    footer
+        font-size: 13px
+
+@media (min-width: 768px)
+    header
+        .header-text
+            h1
+                font-size: 85px
+    footer
+        font-size: 15px

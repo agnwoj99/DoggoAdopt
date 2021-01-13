@@ -1,0 +1,186 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+nav .navbar-brand {
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+}
+
+nav .navbar-collapse {
+  letter-spacing: 3px;
+}
+
+header .header-img {
+  position: relative;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url("../img/Doggo2.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+header .header-text {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+header .header-text h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 65px;
+}
+
+#adoption h1 {
+  font-size: 45px;
+}
+
+#adoption .adopt-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+
+#adoption .adopt-hero-box p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#adoption .box-one {
+  background-image: url("../img/dog-5288071_640.jpg");
+}
+
+#adoption .box-two {
+  background-image: url("../img/great-dane-3387239_1280.jpg");
+}
+
+#adoption .box-three {
+  background-image: url("../img/dog-4689169_640.jpg");
+}
+
+#adoption .box-four {
+  background-image: url("../img/dog-4608266_640.jpg");
+}
+
+#adoption .box-five {
+  background-image: url("../img/dog-4441585_640.jpg");
+}
+
+#adoption .box-six {
+  background-image: url("../img/animal-1869442_640.jpg");
+}
+
+#adoption .box-seven {
+  background-image: url("../img/dog-3759590_640.jpg");
+}
+
+#adoption .box-eight {
+  background-image: url("../img/boston-terrier-pup-1752894_640.jpg");
+}
+
+#adoption .box-nine {
+  background-image: url("../img/animal-1850002_640.jpg");
+}
+
+#contact .container {
+  position: relative;
+  background-image: url("../img/dog-4259565_1280.jpg");
+  background-position: cover;
+  background-size: center;
+  z-index: 0;
+}
+
+#form .form-header {
+  position: relative;
+  height: 60vh;
+  background-image: url("../img/dog-4370694_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+#form .form-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+
+#download .container a {
+  color: #5D6D1C;
+  text-decoration: none;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#download .container a:hover {
+  color: grey;
+}
+
+#download .container p {
+  font-size: 13px;
+}
+
+footer {
+  font-size: 11px;
+}
+
+footer p {
+  position: absolute;
+  left: 25px;
+  right: 0;
+}
+
+footer span {
+  position: absolute;
+  right: 25px;
+}
+
+@media (min-width: 375px) {
+  header .header-text h1 {
+    font-size: 72px;
+  }
+  footer {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .header-text h1 {
+    font-size: 85px;
+  }
+  footer {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
